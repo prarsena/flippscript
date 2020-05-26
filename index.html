@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Compare supermarket prices</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="form">
+		<form label="select store">
+			<input type="text" placeholder="Zipcode" id="zip">
+			<input type="text" placeholder="Product" id="product">
+			<input type="button" onclick="addProductToList()" value="Submit" />
+		</form>
+	</div>
+	<div id="itemlist">
+		Searching for: <div id="food_choices"></div>
+	</div>
+	<div class="container">
+		<div class="row" id="content_goes_here">
+
+		</div>
+	</div>
+	<script src="flippscript_col.js"> </script>
+	<!--  <script src="flipp_stopandshop.js"> </script>-->
+</body>
+
+</html>

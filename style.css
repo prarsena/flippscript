@@ -1,0 +1,19 @@
+body {
+    padding: 50px;
+}
+
+.col-sm{
+    margin: 5px;
+    border: 1px black solid;
+}
+.big {
+    display: inline;
+    font-size-adjust: inherit;
+    text-align: center;
+    padding-left: 1em;
+    background-color: burlywood;
+}
+
+.food_choices {
+    display: inline;
+}
